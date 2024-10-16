@@ -1,0 +1,152 @@
+/* Estilos existentes */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #00FA9A;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px; /* Limita a largura máxima do cabeçalho */
+}
+
+header img.header-image {
+    width: 80px; /* Ajuste conforme necessário */
+    height: auto;
+    margin-right: 20px; /* Espaçamento entre a imagem e o título */
+    align-self: flex-start; /* Mantém a imagem no canto superior esquerdo */
+}
+
+header h1 {
+    flex-grow: 1;
+    text-align: center;
+    margin: 0;
+    font-size: 2em;
+}
+
+header img.header-image {
+    width: 300px; /* Altere conforme necessário */
+    height: auto;
+    margin-left: 10px; /* Espaço entre a imagem e o título */
+}
+
+header img.header-image-right {
+    width: 200px; /* Ajuste conforme necessário */
+    height: auto;
+    margin-right: 1px; /* Espaçamento entre a primeira e a segunda imagem */
+}
+
+/* Estilo da seção de projetos */
+section#projects {
+    padding: 20px;
+}
+
+section#projects h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Estilo da tabela */
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0 auto;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+table thead {
+    background-color: #00FA9A;
+    color: white;
+    text-transform: uppercase;
+}
+
+table th, table td {
+    padding: 15px;
+    text-align: center;
+}
+
+table th {
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+table td {
+    background-color: #fff;
+    color: #333;
+    font-size: 0.9em; 
+}
+
+/* Estilo para o efeito hover */
+table tbody tr {
+    transition: background-color 0.3s ease;
+}
+
+table tbody tr:hover {
+    background-color: #f0f0f0;
+}
+
+/* Estilo das imagens na tabela */
+.project-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo dos links */
+table a {
+    color: #00FA9A;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid #4CAF50;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    font-size: 0.9em; 
+}
+
+table a:hover {
+    background-color: #00FA9A;
+    color: white;
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer .social-links a {
+    color: #00FA9A;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer .social-links a:hover {
+    text-decoration: underline;
+}
